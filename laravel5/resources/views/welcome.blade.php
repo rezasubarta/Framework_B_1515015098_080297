@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Rizky Fadillah RW</div>
+                <div class="title">Reza Akbar Subarta</div>
             </div>
         </div>
     </body>
