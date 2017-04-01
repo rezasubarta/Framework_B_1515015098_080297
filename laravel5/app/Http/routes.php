@@ -26,6 +26,7 @@ Route::get('hello-world', function () {
     // return "Selamat datang $mhs";
 //});
 
+Route::get('mahasiswa_pengguna','MahasiswaController@mahasiswa');
 Route::get('pengguna','PenggunaController@awal');
 Route::get('pengguna/tambah','PenggunaController@tambah');
 Route::get('pengguna/{pengguna}','PenggunaController@lihat');

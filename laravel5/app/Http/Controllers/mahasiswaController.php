@@ -25,4 +25,9 @@ class MahasiswaController extends Controller
     	$mahasiswa->save();
     	return "Data Mahasiswa dengan Nama {$mahasiswa->nama} telah disimpan";
 }
+
+    public function mahasiswa(){
+        echo "Reza Akbar Subarta";
+    }
 }
+
