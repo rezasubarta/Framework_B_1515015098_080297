@@ -9,7 +9,8 @@ use App\Pengguna;
 
 class PenggunaController extends Controller
 {
-    public function awal()
+
+  public function awal()
     {
     	return view ('pengguna.awal',['data'=>Pengguna::all()]);
     }
